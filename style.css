@@ -1,0 +1,195 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Times New Roman", Times, sans-serif; 
+}
+
+
+
+body{
+
+	
+	background: #faf7f6 url(https://64.media.tumblr.com/881344fa572c458cb245dd2356eb91e9/38932a84e5dd6712-d3/s1280x1920/2bcf18a08630421fcd84967e3846ce0c4b81fc97.png) repeat-x;
+	;
+
+}
+
+
+#logo {
+
+padding-left: 200px;
+margin-top: 55px;
+top:0;
+position: static;
+
+}
+
+#logo {
+
+	width: 280px;
+   
+    z-index: -1;	
+}
+
+#wrap{
+width: 100%;
+position: absolute;
+top:0;
+}
+
+#menu {
+    
+top:0;
+float: right;
+ 
+}
+
+
+}
+
+#menu ul {
+    padding:0;
+    margin-top:0px;
+
+    background-color: white;
+    list-style:none;
+    border: 1px solid white;
+    position: fixed;
+
+
+}
+
+#menu ul li 
+{ 
+
+display: inline-block;
+border: 1px solid black;
+	 
+}
+
+#menu ul li a
+
+{
+margin: 0px;
+}
+
+#menu ul li a {
+    padding: 15px;
+    display: inline-block;
+    line-height: 5px;
+    font-weight: bold;
+
+
+    /* visual do link */
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    border-bottom:3px solid white;
+}
+
+#menu ul li a:hover {
+	
+    background-color: black;
+    color: white;
+    border-bottom:3px solid white;
+}
+
+
+body.home a#home
+{
+color: white;
+background-color: black;
+border-bottom: 3px solid white;
+}
+
+body.sobre a#sobre
+{
+color: white;
+background-color: black;
+border-bottom: 3px solid white;
+}
+body.vantagens a#vantagens
+{
+color: white;
+background-color: black;
+border-bottom: 3px solid white;
+}
+body.contato a#contato
+{
+color: white;
+background-color: black;
+border-bottom: 3px solid white;
+}
+
+#galeria
+{
+
+position: sticky;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 210px;
+
+}
+
+.imagens{
+ 
+}
+
+.imagens img
+{
+justify-content: center;
+width: 200px;
+height: 300px;
+margin:5px;
+padding: 5px;
+}
+
+.imagens img {
+
+  border: 3px solid black;
+  border-radius: 3px;
+  background-color: white;
+ 
+}
+
+.imagens img:hover {
+transition: 0.5s;
+filter: grayscale(100%)
+}
+
+.imagens img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  position: relative;
+  z-index: 5;
+
+}
+
+body h2 {
+
+    padding: 4px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    }
+
+
+
+#rodape footer
+{
+    background-color: black;
+    line-height: 10px;
+
+}
+
+#rodape footer img
+{
+    width: 30px;
+    display:block
+    margin-top: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
